@@ -1,0 +1,183 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <!--Stylesheet and JavaScript files-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5dad9558ff.js" crossorigin="anonymous"></script>
+    <!-- importing fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <a href="#hero" class="logo">Jumaana Nainar</a>
+        <ul>
+            <li><a href="#hero"> <i class="fa-regular fa-house"></i> Home</a></li>
+            <li><a href="#about"> <i class="fa-regular fa-user"></i> About</a></li>
+            <li><a href="projectsList.html"> <i class="fa-regular fa-folder"></i> Projects</a></li>
+            <li><a href="https://drive.google.com/file/d/1gQmgitE46qrUP_dNsPT9-fQWPlo2VsbW/view?usp=sharing"> <i
+                        class="fa-regular fa-file"></i> Resume </a></li>
+            <li><a href="#contact"> <i class="fa-regular fa-envelope"></i> Contact</i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main body -->
+    <main>
+        <!--Hero-->
+        <section id="hero">
+            <div id="hero-container">
+
+                <div id="hero-text">
+                    <p id="hi"> Hi! My name is</p>
+                    <h1> Jumaana Nainar</h1>
+
+                    <div class="inner-titles">
+                        <span>Mechanical Engineering Student</span>
+                        <span>Entrepreneur</span>
+                        <span>Designer</span>
+                        <span>Mechanical Engineering Student</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="hero-arrow-container">
+                <a href="#about">
+                    <i class="fa-solid fa-arrow-down" style="color:var(--secondary-color);"></i>
+                </a>
+            </div>
+        </section>
+
+        <!--About-->
+
+        <section id="about">
+            <div id=about-content-container>
+                <div id="about-text-container">
+                    <h2>About Me</h2>
+
+                    <p class="about-text">Hi! My name is Jumaana, and I am a first-year <span
+                            class="highlight">Mechanical Engineering </span> student
+                        at
+                        the University of Waterloo. Through both individual and team-based projects, I've developed
+                        my proficiency in tools including <span class="highlight">AutoCad</span> and <span
+                            class="highlight">SolidWorks</span> so I can convert my ideas into reality. <!--I
+                        also enjoy creating websites like this one using <span class="highlight">HTML5</span>, <span
+                            class="highlight">CSS3</span>, and <span class="highlight">JavaScript!</span>-->
+                    </p>
+
+                    <p class="about-text">
+                        I'm excited to continue exploring the broad applications of engineering through my
+                        academic and co-op experiences. I aspire to lead my own start-up, combining my passion for
+                        entrepreneurship and engineering.
+                    </p>
+
+                    <p class="about-text"> I am currently searching for <span class="highlight">Winter 2026 </span>
+                        co-op opportunities. View my <a
+                            href="https://drive.google.com/file/d/1gQmgitE46qrUP_dNsPT9-fQWPlo2VsbW/view?usp=sharing"
+                            style="color: var(--primary-color)">resume</a>,
+                        check out some of my <a href="#projects" style="color: var(--primary-color)">recent
+                            projects</a>, or <a href="#contact" style="color: var(--primary-color)">reach out</a> to
+                        discuss how I may join your team!
+                    </p>
+
+                </div id="about-profile">
+
+                <img src="images/closeProfile (2).png" id="profile">
+            </div>
+
+            <div id="skills-list">
+                <div class="skill-title">
+                    Engineering Skills
+                </div>
+
+                <div class="skills-buttons-container">
+                    <span class="skill-button">AutoCAD</span>
+                    <span class="skill-button">SolidWorks</span>
+                    <span class="skill-button"><i class="fa-brands fa-html5"></i> HTML5</span>
+                    <span class="skill-button"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                    <span class="skill-button"><i class="fa-brands fa-js"></i> JavaScript</span>
+                    <span class="skill-button">VS Code</span>
+                </div>
+
+                <div class="skill-title">Productivity</div>
+                <div class="skills-spans-container">
+                    <span class="skill-button">Microsoft 365</span>
+                    <span class="skill-button"><i class="fa-brands fa-google"></i> Google Workspace</span>
+                    <span class="skill-button">Slack</span>
+                    <span class="skill-button"><i class="fa-brands fa-figma"></i> Figma</span>
+                </div>
+            </div>
+        </section>
+<!--Featured Projects-->
+        <section id="projects">
+            <h2 style="padding-left: 20px; padding-top: 20px;">Featured Projects </h2>
+            <div id = "projects-description-container">
+                <p class="base-text"> Some of my favorite projects that I've worked on! Click the "see more" button to view all projects.</p>
+               <a href = "projectsList.html"><button class="general-button" style = "padding-top: 5px; padding-bottom: 5px;"> SEE MORE <i class="fa-solid fa-arrow-up open-arrow"></i> </button></a> 
+            </div>
+            <div id="highlighted-projects-container">
+
+            </div>
+        </section>
+<!--Contact info-->
+        <section id="contact">
+            <div id="contact-content-container">
+                <h2>Contact</h2>
+                <p class="about-text">
+                    Feel free to reach out, I would love to connect!
+                </p>
+                <div id="contact-methods">
+                    <div class="contact-method-container">
+                        <a href="mailto:jumaana.nainar@uwaterloo.ca"><i class="fa-regular fa-envelope contact-icon"></i>
+                        </a>
+
+                        <p class="about-text"> <a
+                                href="mailto:jumaana.nainar@uwaterloo.ca">jumaana.nainar@uwaterloo.ca</a>
+                        </p>
+
+                    </div>
+
+                    <div class="contact-method-container">
+                        <a href=" https://www.linkedin.com/in/jumaana-nainar"><i
+                                class="fa-brands fa-linkedin-in contact-icon"></i>
+                        </a>
+                        <p class="about-text"><a
+                                href="https://www.linkedin.com/in/jumaana-nainar">linkedin.com/in/jumaana-nainar</a>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+        </section>
+<!--Footer-->
+        <footer>
+            <div>
+                <a href="#home" style="text-align:right; text-decoration:none;" id="footer-title">Jumaana Nainar</a>
+            </div>
+            <p class="footer-text">© 2025 Jumaana Nainar</p>
+            <div id="footer-icon-container">
+                <a href="https://www.linkedin.com/in/jumaana-nainar">
+                    <i class="fa-brands fa-linkedin-in footer-icon"></i>
+                </a>
+                <a href="mailto:jumaana.nainar@uwaterloo.ca">
+                    <i class="fa-regular fa-envelope footer-icon"></i>
+                </a>
+                <a href="https://github.com/Jumaana-Nainar">
+                    <i class="fa-brands fa-github footer-icon"></i>
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
