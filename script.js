@@ -6,25 +6,25 @@ const projects = [
     title: "Formula Snail",
     image: "images/Formula Snail.JPG",
     imagePosition: "top",
-    description: "Group torsion-spring rollercoaster-style toy design project",
-    skills: ["SolidWorks", "AutoCAD"],
-    link: ""
+    description: "Rollercoaster-style toy with a torsion-spring-propelled snail figurine",
+    link: "formulaSnail.html",
+    category: ["Mechanical", "Team"]
   },
 {
     title: "Age of Adventure",
     image: "images/AoAcard.png",
     imagePosition: "bottom",
     description: "Choose-your-own-adventure web-based video game utilizing object-oriented programming",
-    skills: ["HTML", "CSS", "JavaScript"],
-    link: ""
+    link: "ageOfAdventure.html",
+    category: ["Web-dev", "Team"]
   },
   {
-    title: "This Website!",
+    title: "Portfolio Website",
     image: "images/websiteCard.png",
     imagePosition: "top",
     description: "Custom-designed and developed website outlining who I am and my work",
-    skills: ["HTML", "CSS", "JavaScript"],
-    link:""
+    link:"portfolio.html",
+    category: ["Web-dev", "Individual"]
   }
 ];
 
@@ -38,9 +38,9 @@ projects.forEach(project => {
   card.innerHTML = `
     <a href="${project.link}" class="card-link"></a>
       <img 
-        src="${project.image}" 
+        src="${project.image}"
         class="card-image"
-        style="object-position: ${project.imagePosition};"
+        style="object-position: ${project.imagePosition};" 
       >
 
       <div class="card-text">
@@ -49,11 +49,10 @@ projects.forEach(project => {
           ${project.description}
         </p>
 
-        <div class="skill-tag-container">
-          ${project.skills
-            .map(skill => `<span class="skill-tag">${skill}</span>`)
+        <div class="category-tag-container">
+          ${project.category
+            .map(category => `<span class="${category}-tag">${category}</span>`)
             .join("")}
-        </div>
       </div>
     
   `;
