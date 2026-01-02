@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    /*Hero name*/
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+.inner-titles {
+    height: 40px;
+    line-height: 40px;
+    /*make sure it is slightly biggger than font size so other text is hidden*/
+    font-size: 15px;
+    /* height of one title */
+}
+
+#hi {
+    font-size: 25px;
+}
+
+#hero{
+    width: 100%;
+}
+
+#about-content-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#highlighted-projects-container{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 5px;
+    justify-content: center;
+}
+
+h4{
+    font-size: 20px;
+}
+.card {
+    gap: 5px;
+    width: 315px;
+    height: 300px;
+}
+
+
+.card-image {
+    height: 175px;
+    width: 275px;
+}
+
+#contact-methods{
+    flex-direction: column;
+}
+
+.base-text{
+    font-size: 12px;
+}
+
+#about-text{
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-title{
+    display: none;
+}
+
+#contact-content-container{
+    padding: 10px;
+}
+
+.mechanical-tag,
+.entrepreneurship-tag,
+.web-dev-tag,
+.individual-tag,
+.team-tag, .skill-tag {
+    font-size: 10px;
+    padding: 2.5px 5px;
+}
+
+.project-title-container{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section{
+    flex-direction: column;
+    justify-content: center;
+}
+.multiple-images{
+    flex-direction: column;
+    justify-content: center;
+}
+
+iframe{
+width: 90vw;
+height: 90vw;
+}
+
+.description{
+    padding: 10px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.project-header-image{
+    height: 200px;
+    width: 300px;
+}
+
+#projects-container{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    place-items:center;
+}
+}
