@@ -59,3 +59,13 @@ projects.forEach(project => {
 
   display.appendChild(card);
 });
+
+/* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+  document.getElementById("sideMenu").style.width = "200px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("sideMenu").style.width = "0";
+}
