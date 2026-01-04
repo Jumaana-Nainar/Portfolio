@@ -19,8 +19,8 @@ html {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /*Common styling*/
@@ -123,58 +123,6 @@ figure {
 }
 
 /*navbar*/
-/* The sidepanel menu */
-.sidemenu {
-  height: auto; /* Specify a height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 100000; /* Stay on top */
-  left: 0;
-  background-color: var(--primary-color); /* Black*/
-  overflow: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 0px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-  display: flex;
-  align-items: left;
-}
-
-/* The sidepanel links */
-.sidemenu a {
-  padding: 8px 8px 8px 10px;
-  text-decoration: none;
-  font-size: 30px;
-  color: var(--primary-color);
-  display: block;
-  transition: 0.3s;
-  background-color: var(--secondary-color);
-  font-family: var(--clean-font);
-  font-weight: 700;
-}
-
-
-/* Position and style the close button (top right corner) */
-.sidemenu .closebutton {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  color: var(--primary-color);
-}
-
-/* Style the button that is used to open the sidepanel */
-.openbutton {
-  font-size: 30px;
-  cursor: pointer;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 10px 15px;
-  border: none;
-  width: 100%;
-  text-align: left;
-  font-family: var(--clean-font);
-}
 
 nav {
     position: fixed;
@@ -212,7 +160,6 @@ nav ul {
 nav ul li a {
     position: relative;
     text-decoration: none;
-    font-weight: 400;
     font-size: 1.5rem;
     padding: 0.25rem 0;
     transition: color 0.3s ease;
@@ -465,7 +412,7 @@ footer {
     transform: scale(1.05);
 }
 
-#about-profile{
+#about-profile {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -548,6 +495,7 @@ footer {
     z-index: 1;
 }
 
+
 .card:hover {
     transform: translate(0, -10px);
     box-shadow: 0 8px 16px 0 rgba(75, 85, 149, 1);
@@ -576,7 +524,8 @@ footer {
 .entrepreneurship-tag,
 .web-dev-tag,
 .individual-tag,
-.team-tag, .skill-tag{
+.team-tag,
+.skill-tag {
     color: var(--primary-color);
     text-align: center;
     text-decoration: none;
@@ -631,7 +580,8 @@ footer {
     justify-content: space-evenly;
     width: 100%;
     margin: 0 auto;
-    place-items: center;row-gap: 20px;
+    place-items: center;
+    row-gap: 20px;
 }
 
 #projects-description-container {
@@ -651,7 +601,7 @@ footer {
 .card-link {
     position: absolute;
     inset: 0;
-    z-index: 10;
+    z-index: 1;
     text-decoration: none;
 }
 
@@ -664,6 +614,7 @@ footer {
     place-items: center;
     row-gap: 20px;
 }
+
 /*Contact components*/
 #contact-content-container {
     color: var(--primary-color);
@@ -779,6 +730,7 @@ footer {
 .image-custom {
     object-fit: cover;
     border-radius: 20px;
+    height: auto; 
 }
 
 

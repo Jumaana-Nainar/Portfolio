@@ -1,184 +1,236 @@
-@media (max-width: 1200px) {
-    nav {
-        display: none;
-        height: 0;
-    }
-
-    /*Hero name*/
+@media (max-width: 768px) {
     h1 {
         font-size: 40px;
         font-weight: 700;
     }
 
-.inner-titles {
-    height: 40px;
-    line-height: 40px;
-    /*make sure it is slightly biggger than font size so other text is hidden*/
-    font-size: 15px;
-    /* height of one title */
-}
+    .inner-titles {
+        height: 40px;
+        line-height: 40px;
+        /*make sure it is slightly biggger than font size so other text is hidden*/
+        font-size: 15px;
+        /* height of one title */
+    }
 
-#hi {
-    font-size: 25px;
-}
+    #hi {
+        font-size: 25px;
+    }
 
-#hero{
-    width: 100%;
-}
+    #hero {
+        width: 100%;
+    }
 
-#about-content-container{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    #about-content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-h2{
-    font-size: 30px;
-}
+    h2 {
+        font-size: 30px;
+    }
 
-#highlighted-projects-container{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    padding: 5px;
-    justify-content: center;
-}
+    #highlighted-projects-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        padding: 5px;
+        justify-content: center;
+    }
 
-h4{
-    font-size: 20px;
-}
-.card {
-    gap: 5px;
-    width: 315px;
-    height: 300px;
-}
+    h4 {
+        font-size: 20px;
+    }
 
-
-.card-image {
-    height: 175px;
-    width: 275px;
-}
-
-#contact-methods{
-    flex-direction: column;
-}
-
-.base-text{
-    font-size: 12px;
-}
-
-.about-text{
-    text-align: center;
-    font-size: 16px;
-}
-
-.footer-title{
-    display: none;
-}
-
-footer{
-    justify-content: center;
-}
-#contact-content-container{
-    padding: 10px;
-}
-
-.mechanical-tag,
-.entrepreneurship-tag,
-.web-dev-tag,
-.individual-tag,
-.team-tag, .skill-tag {
-    font-size: 10px;
-    padding: 2.5px 5px;
-}
-
-.project-title-container{
-    flex-direction: column;
-    justify-content: center;
-}
-
-.skill-pill{
-    font-size: 15px;
-}
-.section{
-    flex-direction: column;
-    justify-content: center;
-}
-.multiple-images{
-    flex-direction: column;
-    justify-content: center;
-}
-
-iframe{
-width: 90vw;
-height: 90vw;
-}
-
-.description{
-    padding: 10px;
-}
-
-h3{
-    font-size: 40px;
-}
-
-.project-header-image{
-    height: 200px;
-    width: 300px;
-}
+    .card {
+        gap: 5px;
+        width: 315px;
+        height: 300px;
+    }
 
 
+    .card-image {
+        height: 175px;
+        width: 275px;
+    }
 
-#profile {
-    height: 200px;
-    width: 200px;
+    #contact-methods {
+        flex-direction: column;
+    }
+
+    .base-text {
+        font-size: 12px;
+    }
+
+    .about-text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .footer-title {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    #contact-content-container {
+        padding: 10px;
+    }
+
+    .mechanical-tag,
+    .entrepreneurship-tag,
+    .web-dev-tag,
+    .individual-tag,
+    .team-tag,
+    .skill-tag {
+        font-size: 10px;
+        padding: 2.5px 5px;
+    }
+
+    .project-title-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skill-pill {
+        font-size: 15px;
+    }
+
+    .section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .multiple-images {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .description {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .project-header-image {
+        height: 200px;
+        width: 300px;
+    }
+
+
+
+    #profile {
+        height: 200px;
+        width: 200px;
+    }
+
+    .general-button {
+        font-size: 12px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
 }
 
-.general-button{
-    font-size: 12px;
-}
+@media (min-width: 1000px) {
+    #projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 
-.sidemenu, .openbutton{
-display:block;
-position: fixed;
-}
+    #highlighted-projects-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        padding: 5px;
+    }
 
+    #contact {
+        height: 50vh;
+    }
 
-}
-
-@media (min-width: 1000px){
-#projects-container{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-#highlighted-projects-container{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    padding: 5px;
-}
-
-#contact{
-    height: 50vh;
-}
-
-#contact-methods{
-    flex-direction: row;
-}
-
-}
-
-@media (max-width: 1035px){
-
-#projects-container{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    
-    .footer-title{
-        display: block;
+    #contact-methods {
+        flex-direction: row;
     }
 }
+
+@media (max-width: 1200px) {
+
+    #projects-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        .footer-title {
+            display: block;
+        }
+
+    }
+
+
 }
 
-@media (max-width: 730px){
-    #projects-container{
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+@media (max-width: 730px) {
+    #projects-container {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
 }
+
+@media (max-width: 920px) {
+    .logo {
+        display: none;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1140px) {
+    #highlighted-projects-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        padding: 5px;
+    }
+
+
 }

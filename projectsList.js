@@ -1,7 +1,5 @@
-//Loading completion check//
-console.log("Portfolio loaded successfully");
-//Data for featured projects cards on home page
-const projects = [
+//Data for all projects cards on projects page
+const projectsDetails = [
   {
     title: "Formula Snail",
     image: "images/Formula Snail.JPG",
@@ -10,7 +8,7 @@ const projects = [
     link: "formulaSnail.html",
     category: ["Mechanical", "Team"]
   },
-{
+  {
     title: "Age of Adventure",
     image: "images/AoAcard.png",
     imagePosition: "bottom",
@@ -23,23 +21,23 @@ const projects = [
     image: "images/websiteCard.png",
     imagePosition: "top",
     description: "Custom-designed and developed website outlining who I am and my work",
-    link:"portfolio.html",
+    link: "portfolio.html",
     category: ["Web-dev", "Individual"]
   },
-   {
+  {
     title: "Holiday Market Sales Venture",
     image: "images/websiteCard.png",
     imagePosition: "top",
     description: "Pop-up shop to sell handmade jewelery at a local holiday market",
-    link:"",
+    link: "",
     category: ["Entrepreneurship", "Individual"]
   }
 ];
 
 
-const display = document.getElementById("projects-container");
+const displayDetails = document.getElementById("projects-container");
 
-projects.forEach(project => {
+projectsDetails.forEach(project => {
   const card = document.createElement("div");
   card.classList.add("card");
 
@@ -59,11 +57,11 @@ projects.forEach(project => {
 
         <div class="category-tag-container">
           ${project.category
-            .map(category => `<span class="${category}-tag">${category}</span>`)
-            .join("")}
+      .map(category => `<span class="${category}-tag">${category}</span>`)
+      .join("")}
       </div>
     
   `;
 
-  display.appendChild(card);
+  displayDetails.appendChild(card);
 });
