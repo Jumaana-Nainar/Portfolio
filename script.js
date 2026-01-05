@@ -5,7 +5,7 @@ const projects = [
     image: "images/Formula Snail.JPG",
     imagePosition: "top",
     description: "Rollercoaster-style toy with a torsion-spring-propelled snail figurine",
-    link: "formulaSnail.html",
+    link: "/projects/formula-snail/",
     category: ["Mechanical", "Team"]
   },
   {
@@ -13,7 +13,7 @@ const projects = [
     image: "images/AoAcard.png",
     imagePosition: "bottom",
     description: "Choose-your-own-adventure web-based video game utilizing object-oriented programming",
-    link: "ageOfAdventure.html",
+    link: "/projects/age-of-adventure/",
     category: ["Web-dev", "Team"]
   },
   {
@@ -21,12 +21,12 @@ const projects = [
     image: "images/websiteCard.png",
     imagePosition: "top",
     description: "Custom-designed and developed website outlining who I am and my work",
-    link: "portfolio.html",
+    link: "/projects/portfolio-website",
     category: ["Web-dev", "Individual"]
   }
 ];
 
-
+//Generating cards
 const display = document.getElementById("highlighted-projects-container");
 if (display) {
   projects.forEach(project => {
@@ -57,14 +57,4 @@ if (display) {
 
     display.appendChild(card);
   });
-}
-
-/* Set the width of the sidebar to 250px (show it) */
-function openNav() {
-  document.getElementById("sideMenu").style.width = "200px";
-}
-
-/* Set the width of the sidebar to 0 (hide it) */
-function closeNav() {
-  document.getElementById("sideMenu").style.width = "0";
 }

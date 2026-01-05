@@ -95,6 +95,7 @@ figcaption {
 
 figure {
     text-align: center;
+    height: auto;
 }
 
 /*General button*/
@@ -730,7 +731,7 @@ footer {
 .image-custom {
     object-fit: cover;
     border-radius: 20px;
-    height: auto; 
+    height: auto;
 }
 
 
@@ -748,5 +749,4 @@ footer {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: var(--primary-color);
 }

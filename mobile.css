@@ -159,6 +159,7 @@
 
 }
 
+
 @media (min-width: 1000px) {
     #projects-container {
         display: grid;
@@ -231,6 +232,5 @@
         grid-template-columns: repeat(1, minmax(0, 1fr));
         padding: 5px;
     }
-
 
 }
