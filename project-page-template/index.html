@@ -12,7 +12,26 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
     </style>
-
+<script>
+  const isGitHub = location.hostname.endsWith("github.io");
+  if (isGitHub) {
+    const base = "/Portfolio/";
+    document.querySelectorAll("link[rel='stylesheet']").forEach(link => {
+      link.href = base + link.getAttribute("href").replace(/^(\.\.\/)+/, "");
+    });
+    document.querySelectorAll("script[src]").forEach(script => {
+      if (!script.src.startsWith("http")) {
+        script.src = base + script.getAttribute("src").replace(/^(\.\.\/)+/, "");
+      }
+    });
+    document.querySelectorAll("a").forEach(a => {
+      const href = a.getAttribute("href");
+      if (href && !href.startsWith("http") && !href.startsWith("#")) {
+        a.href = base + href.replace(/^(\.\.\/)+/, "");
+      }
+    });
+  }
+</script>
 </head>
 
 <body>
