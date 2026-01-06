@@ -2,34 +2,34 @@
 const projectsDetails = [
   {
     title: "Formula Snail",
-    image: "../images/Formula Snail.JPG",
+    image: "images/Formula Snail.JPG",
     imagePosition: "top",
     description: "Rollercoaster-style toy with a torsion-spring-propelled snail figurine",
-    link: "../projects/formula-snail",
+    link: "formula-snail.html",
     category: ["Mechanical", "Team"]
   },
   {
     title: "Age of Adventure",
-    image: "../images/AoAcard.png",
+    image: "images/AoAcard.png",
     imagePosition: "bottom",
     description: "Choose-your-own-adventure web-based video game utilizing object-oriented programming",
-    link: "../projects/age-of-adventure",
+    link: "age-of-adventure.html",
     category: ["Web-dev", "Team"]
   },
   {
     title: "Portfolio Website",
-    image: "../images/websiteCard.png",
+    image: "images/websiteCard.png",
     imagePosition: "top",
     description: "Custom-designed and developed website outlining who I am and my work",
-    link: "../projects/portfolio-website",
+    link: "portfolio-website.html",
     category: ["Web-dev", "Individual"]
   },
   {
     title: "Holiday Market Sales Venture",
-    image: "../images/sale.jpg",
+    image: "images/sale.jpg",
     imagePosition: "top",
     description: "Pop-up shop to sell handmade jewelery at a local holiday market",
-    link: "../projects/holiday-market-venture",
+    link: "holiday-market-venture.html",
     category: ["Entrepreneurship", "Individual"]
   }
 ];

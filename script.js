@@ -5,7 +5,7 @@ const projects = [
     image: "images/Formula Snail.JPG",
     imagePosition: "top",
     description: "Rollercoaster-style toy with a torsion-spring-propelled snail figurine",
-    link: "../projects/formula-snail/",
+    link: "formula-snail.html",
     category: ["Mechanical", "Team"]
   },
   {
@@ -13,7 +13,7 @@ const projects = [
     image: "images/AoAcard.png",
     imagePosition: "bottom",
     description: "Choose-your-own-adventure web-based video game utilizing object-oriented programming",
-    link: "../projects/age-of-adventure/",
+    link: "age-of-adventure.html",
     category: ["Web-dev", "Team"]
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     image: "images/websiteCard.png",
     imagePosition: "top",
     description: "Custom-designed and developed website outlining who I am and my work",
-    link: "../projects/portfolio-website/",
+    link: "portfolio-website.html",
     category: ["Web-dev", "Individual"]
   }
 ];

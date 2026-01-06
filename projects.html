@@ -5,34 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <!--Stylesheet and JavaScript files-->
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <script src="https://kit.fontawesome.com/5dad9558ff.js" crossorigin="anonymous"></script>
 
     <!-- importing fonts -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
     </style>
-<script>
-  const isGitHub = location.hostname.endsWith("github.io");
-  if (isGitHub) {
-    const base = "/Portfolio/";
-    document.querySelectorAll("link[rel='stylesheet']").forEach(link => {
-      link.href = base + link.getAttribute("href").replace(/^(\.\.\/)+/, "");
-    });
-    document.querySelectorAll("script[src]").forEach(script => {
-      if (!script.src.startsWith("http")) {
-        script.src = base + script.getAttribute("src").replace(/^(\.\.\/)+/, "");
-      }
-    });
-    document.querySelectorAll("a").forEach(a => {
-      const href = a.getAttribute("href");
-      if (href && !href.startsWith("http") && !href.startsWith("#")) {
-        a.href = base + href.replace(/^(\.\.\/)+/, "");
-      }
-    });
-  }
-</script>
+
 </head>
 
 <body>
@@ -40,14 +21,14 @@
     <!--Navbar-->
 
     <nav>
-        <a href="../#hero" class="logo">Jumaana Nainar</a>
+        <a href="index.html/#hero" class="logo">Jumaana Nainar</a>
         <ul>
-            <li><a href="../#hero"> <i class="fa-regular fa-house"></i> Home</a></li>
-            <li><a href="../#about"> <i class="fa-regular fa-user"></i> About</a></li>
+            <li><a href="index.html/#hero"> <i class="fa-regular fa-house"></i> Home</a></li>
+            <li><a href="index.html/#about"> <i class="fa-regular fa-user"></i> About</a></li>
             <li><a href="../../projects/"> <i class="fa-regular fa-folder"></i> Projects</a></li>
             <li><a href="https://drive.google.com/file/d/1gQmgitE46qrUP_dNsPT9-fQWPlo2VsbW/view?usp=sharing"
                     target="_blank" rel="noopener noreferrer"> <i class="fa-regular fa-file"></i> Resume </a></li>
-            <li><a href="../#contact"> <i class="fa-regular fa-envelope"></i> Contact</i></a></li>
+            <li><a href="index.html/#contact"> <i class="fa-regular fa-envelope"></i> Contact</i></a></li>
         </ul>
     </nav>
 
@@ -64,7 +45,7 @@
     <!-- Footer -->
     <footer>
         <div>
-            <a href="../#hero" style="text-align:right; text-decoration:none;" class="footer-title">Jumaana
+            <a href="index.html/#hero" style="text-align:right; text-decoration:none;" class="footer-title">Jumaana
                 Nainar</a>
         </div>
         <p class="footer-text">© 2026 Jumaana Nainar</p>
@@ -81,5 +62,5 @@
         </div>
     </footer>
 </body>
-<script src="../projectsList.js"></script>
+<script src="projectsList.js"></script>
 </html>
