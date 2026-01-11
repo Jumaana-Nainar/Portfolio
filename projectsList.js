@@ -26,7 +26,7 @@ const projectsDetails = [
   },
   {
     title: "Holiday Market Sales Venture",
-    image: "images/sale.jpg",
+    image: "images/shopTable.jpg",
     imagePosition: "top",
     description: "Pop-up shop to sell handmade jewelery at a local holiday market",
     link: "holiday-market-venture.html",

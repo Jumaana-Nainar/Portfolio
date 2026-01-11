@@ -13,26 +13,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
     </style>
-<script>
-  const isGitHub = location.hostname.endsWith("github.io");
-  if (isGitHub) {
-    const base = "/Portfolio/";
-    document.querySelectorAll("link[rel='stylesheet']").forEach(link => {
-      link.href = base + link.getAttribute("href").replace(/^(\.\.\/)+/, "");
-    });
-    document.querySelectorAll("script[src]").forEach(script => {
-      if (!script.src.startsWith("http")) {
-        script.src = base + script.getAttribute("src").replace(/^(\.\.\/)+/, "");
-      }
-    });
-    document.querySelectorAll("a").forEach(a => {
-      const href = a.getAttribute("href");
-      if (href && !href.startsWith("http") && !href.startsWith("#")) {
-        a.href = base + href.replace(/^(\.\.\/)+/, "");
-      }
-    });
-  }
-</script>
+
+    <!--Favicon-->
+    <link rel="icon" type="images/png" href="images/favicon.png">
 </head>
 
 <body>
@@ -45,7 +28,7 @@
             <li><a href="index.html#hero"> <i class="fa-regular fa-house"></i> Home</a></li>
             <li><a href="index.html#about"> <i class="fa-regular fa-user"></i> About</a></li>
             <li><a href="projects.html"> <i class="fa-regular fa-folder"></i> Projects</a></li>
-            <li><a href="https://drive.google.com/file/d/181NMea3o-SsKNRf1J7zikc1YyJmsRFDe/view?usp=sharing"
+            <li><a href="https://drive.google.com/drive/folders/1jVcGUfBQMvljk0ndJ_CC0Gt2iGSgHh_a?usp=drive_link"
                     target="_blank" rel="noopener noreferrer"> <i class="fa-regular fa-file"></i> Resume </a></li>
             <li><a href="index.html#contact"> <i class="fa-regular fa-envelope"></i> Contact</i></a></li>
         </ul>
@@ -60,16 +43,12 @@
                 <span class="individual-tag">Individual</span>
             </div>
             <h3>Holiday Market Sales Venture</h3>
-            <p class="base-text"> <i class="fa-solid fa-calendar"></i> September - October 2019</p>
+            <p class="base-text"> <i class="fa-solid fa-calendar"></i> September - November 2019</p>
             <p class="base-text" style="font-size: 22px; font-weight: 600;">Organized and ran a pop-up shop at a local
                 holiday market to sell handmade jewelery</p>
         </div>
-        <figure> <img src="images/sale.jpg" class="project-header-image">
-            <figcaption><a
-                    href="https://www.freepik.com/free-vector/flat-design-flea-market-concept_11906737.htm#fromView=search&page=3&position=23&uuid=ac01d641-b90d-4460-a1e4-8bd24da23f69&query=flea+market+booth"
-                    style="font-size: 10px;">Image by freepik</a>
-            </figcaption>
-        </figure>
+        <img src="images/pop-up shop.jpg" class="image-custom" style="width: 400px; height: 200px;">
+
     </div>
 
 
@@ -110,9 +89,10 @@
                 <li class="base-text">Developed practical skills in entrepreneurship, customer service, and standardized
                     product manufacturing practices
                 </li>
-                <li class="base-text">Learned how to price products effectively, evaluating costs of production and desired profit
+                <li class="base-text">Learned how to price products effectively, evaluating costs of production and
+                    desired profit
                 </li>
-                <li class="base-text">Successfully generated more than $75 in revenue
+                <li class="base-text">Sold out of select styles
                 </li>
             </ul>
         </div>
