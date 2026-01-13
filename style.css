@@ -674,7 +674,7 @@ footer {
 .project-title-container {
     padding-top: calc(var(--nav-height) + 10px);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
     flex-direction: row;
     align-items: center;
