@@ -1,5 +1,15 @@
 //Data for featured projects cards on home page
 const projects = [
+
+  {
+    title: "LEGO Goose Piece",
+    image: "images/finalGooseSolo.jpg",
+    imagePosition: "top",
+    description: "Custom-designed and 3D-printed LEGO-style piece in the shape of a Canadian Goose",
+    link: "LEGO-goose.html",
+    category: ["Mechanical", "Individual"]
+  },
+
   {
     title: "Formula Snail",
     image: "images/Formula Snail.JPG",
@@ -16,14 +26,6 @@ const projects = [
     link: "age-of-adventure.html",
     category: ["Web-dev", "Team"]
   },
-  {
-    title: "Portfolio Website",
-    image: "images/websiteCard.png",
-    imagePosition: "top",
-    description: "Custom-designed and developed website outlining who I am and my work",
-    link: "portfolio-website.html",
-    category: ["Web-dev", "Individual"]
-  }
 ];
 
 //Generating cards

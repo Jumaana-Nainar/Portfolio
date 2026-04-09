@@ -1,6 +1,14 @@
 //Data for all projects cards on projects page
 const projectsDetails = [
   {
+    title: "LEGO Goose Piece",
+    image: "images/finalGooseSolo.jpg",
+    imagePosition: "top",
+    description: "Custom-designed and 3D-printed LEGO-style piece in the shape of a Canadian Goose",
+    link: "LEGO-goose.html",
+    category: ["Mechanical", "Individual"]
+  },
+  {
     title: "Formula Snail",
     image: "images/Formula Snail.JPG",
     imagePosition: "top",

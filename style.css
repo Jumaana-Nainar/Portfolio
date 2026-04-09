@@ -751,3 +751,28 @@ footer {
     justify-content: center;
     padding: 20px;
 }
+
+/*Table styling*/
+table, th, td {
+  color:var(--primary-color);
+  width: auto;
+  text-align: center;
+  font-weight: 600;
+}
+
+table {
+  font-family: var(--clean-font);
+  border-collapse: collapse;
+  max-width: fit-content;
+}
+
+td, th {
+  border: 3px solid var(--primary-color);
+  padding: 8px;
+  width: fit-content;
+}
+
+th{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
